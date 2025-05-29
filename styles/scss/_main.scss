@@ -1,0 +1,289 @@
+main{
+    padding-top: 8rem;
+}
+
+#destaque{
+    background-image: url('../../assets/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center left;
+    height: 600px;
+    width: 100%;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    background-size: cover; 
+
+
+    .container{
+        position: relative;
+        z-index: 10;
+
+        .row{
+            color: white;
+
+
+            h3{
+                font-family: "Playfair Display", serif;
+                font-size: 3rem;
+                margin-bottom: 1.5rem;
+
+                @media screen and (max-width: 1199px) {
+                    font-size: 2.5rem;
+                }
+            }
+
+            p{
+                font-size: 20px;
+                width: 80%;
+                font-weight: 400;
+            }
+
+
+            button{
+                background-color: var(--c-verde);
+                font-size: 18px;
+                font-weight: 400;
+                color: white;
+                border: 2px solid transparent;
+                border-radius: 3rem;
+                padding: 10px 30px;
+                text-transform: uppercase;
+                margin-top: 2rem;
+
+                &:hover{
+                    border: 2px solid white;
+                }
+            }
+
+            .box-img{
+                img{
+                    @media screen and (max-width: 1199px) {
+                        width: 480px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.sesi-ofertas{
+    .title{
+        h1{
+            font-family: "Inter", sans-serif;
+            color: var(--c-roxo);
+            font-weight: 700;
+            font-size: 3rem;
+            text-align: center;
+        }
+        margin: 3rem 0;
+    }
+
+    .card-oferta{
+        padding: 2rem 2rem !important;
+        border-radius: .7rem;
+
+        @media screen and (max-width: 1199px) {
+            padding: 2rem 1rem !important;
+        }
+        .nome{
+            a{
+                width: 377px;
+                display: inline-block;
+                font-size: 2rem;
+                color: var(--c-roxo);
+                font-weight: 700;
+                text-decoration: none;
+
+                 @media screen and (max-width: 1199px) {
+                    font-size: 1.5rem !important;
+                    width: auto;
+                }
+            }
+        }
+
+        .local{
+            font-weight: bold;
+            font-size: 1rem;
+            margin: 1rem 0;
+
+            span{
+                font-weight: normal;
+            }
+            i{
+                color: var(--c-roxo);
+            }
+        }
+
+        .campo-search {
+            margin-top: 3rem;
+
+            input{
+                border-radius: 3rem;
+                height: 50px;
+                border: 1px solid rgba(0, 0, 0, 0.555);
+            }
+            button{
+                position: absolute;
+                right: 0;
+                background-image:linear-gradient(to left,var(--c-roxo), var(--c-rosa)) ;
+                top: 0;
+                height: 50px;
+                padding: 7px 2rem ;
+                font-weight: 500;
+                border: none;
+                    
+            }
+        }
+    }
+    #ofertas{
+        
+        @media screen and (max-width: 991px) {
+            .text-destaque{
+             margin-top: 2rem;
+             a{
+                 font-size: 17px;
+             }
+            }
+        }
+        .slider-oferta{
+            .slick-list{
+                padding-top: 1rem;
+
+                .slick-track{
+                    .slick-slide{
+                        margin: 1rem;
+                    }
+                }
+            }
+        }
+
+        .item-oferta{
+            background-color: white;
+            color: black;
+            position: relative;
+            max-width: 388px;
+            border-radius: .7rem;
+
+            >div{
+                padding: 12px;
+            }
+
+            .oferta-conteudo{
+                p{
+                    font-weight: 500;
+                    color: var(--c-roxo);
+                    font-size: 20px;
+                }
+
+                .lote{
+                    color: rgba(0, 0, 0, 0.863);
+                }
+            }
+
+            .infos{
+                span{
+                    color: black;
+                }
+            }
+
+        }
+
+    }
+    .itens-destaque ,.text-destaque{
+        a{
+            background-image: linear-gradient(var(--c-roxo), var(--c-rosa));
+            color: white ;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+
+            text-align: center;
+            font-size: 20px;
+            width: 100%;
+            display: block;
+            padding: 2rem 0;
+
+
+            &:hover{
+                background-image: none;
+                background-color: var(--c-roxo);
+            }
+        }
+    }
+
+    .text-destaque a{
+        padding: 1rem 0 !important;
+        height: 62px;
+    }
+
+    .qtd{ 
+        background-image: linear-gradient(var(--c-roxo), var(--c-rosa));
+        width: 140px;
+        border-radius: 3rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        button{
+            color: white;
+            font-size: 20px;
+        } 
+    }
+}
+
+.slick-arrow{
+    display: inline-block !important;
+    position: absolute !important;
+    background-color: white !important;
+    padding: 1rem !important;
+    top: -31px !important;
+    height: 55px !important;
+    width: 58px !important;
+    &:before{
+        color:var(--c-roxo) !important;
+
+        content: '\f101' !important;
+        font-family: "Font Awesome 6 Free" !important;
+        font-weight: 900 !important;
+    }
+}
+
+.slick-prev {
+    left: 5px !important;
+
+    &:before{
+
+        content: '\f100' !important;
+        font-family: "Font Awesome 6 Free" !important;
+        font-weight: 900 !important;
+    }
+}
+
+.slick-next{
+    right: 5px !important; 
+}
+
+.slick-dots {
+    bottom: -3rem !important;
+    li{
+        button:before {
+            font-size: 10px !important;
+            content: '' !important;
+            background-color: var(--c-verde-escuro);
+            border-radius: 3rem;
+            width: 20px !important;
+            height: 8px !important;
+        }
+
+        &.slick-active , &:hover, &:focus{
+            button:before {
+                opacity: .75;
+                background-color: var(--c-laranja) !important;
+            }
+        }
+    }
+}
+

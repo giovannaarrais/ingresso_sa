@@ -1,0 +1,27 @@
+
+@use 'mixins';
+
+@use 'header';
+@use 'main';
+@use 'footer';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    box-sizing: border-box;
+}
+:root{
+    --c-roxo: #5051FF;
+    --c-rosa: #9027FF;
+    --c-verde-claro: #60714e8e;
+    --c-laranja: #C06431;
+}
+
+
+ul{
+    li{
+        list-style: none;
+    }
+}

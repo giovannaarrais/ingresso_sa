@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles/css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!--Slick-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <!--AOS - Animações -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>IngressoS.A</title>
+</head>
+<body>
+    <div id="canvas-menu">
+      <div class="canvas-header d-flex justify-content-between align-items-center">
+        <div class="options d-flex p-md-4 px-1 py-3 gap-md-4 gap-2">
+          <div><a href=""><img src="assets/icons/cart.svg" alt="">Meu carrinho</a></div>
+          <div><a href=""><img src="assets/icons/heart.svg" alt="">Meus Favoritos</a></div>
+        </div>
+        
+        <div class="box-close">
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+      </div>
+      
+      <div class="offcanvas-body p-4">
+        <nav class="menu-top" aria-label="Main navigation">
+          <ul class="ps-0">
+            <li class="mb-3">
+              <a href="#collapsePrimary" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapsePrimary">
+                Sala de Estar 
+                <i class="fa-solid fa-circle-chevron-down"></i></a>
+              <div class="submenu collapse d-flex flex-column ps-3 mt-1" id="collapsePrimary">
+                <a href="#sofa">Sofá</a>
+                <a href="#tv">TV</a>
+                <a href="#decoracao">Decoração</a>
+              </div>
+            </li>
+            <li class="mb-3">
+              <a  href="#collapseSecondary" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseSecondary">Cozinha <i class="fa-solid fa-circle-chevron-down"></i></a>
+              <div class="submenu collapse d-flex flex-column ps-3 mt-1" id="collapseSecondary">
+                <a href="#eletrodomesticos">Eletrodomésticos</a>
+                <a href="#armarios">Armários</a>
+                <a href="#dispensa">Despensa</a>
+              </div>
+            </li>
+            <li class="mb-3">
+              <a  href="#collapseThree" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseThree">Quartos <i class="fa-solid fa-circle-chevron-down"></i></a>
+              <div class="submenu collapse d-flex flex-column ps-3 mt-1" id="collapseThree">
+                <a href="#casal">Quarto Casal</a>
+                <a href="#infantil">Quarto Infantil</a>
+                <a href="#hospedes">Quarto de Hóspedes</a>
+              </div>
+            </li>
+            <li class="mb-3">
+              <a  href="#collapseFour" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseFour">Área Externa <i class="fa-solid fa-circle-chevron-down"></i></a>
+              <div class="submenu collapse d-flex flex-column ps-3 mt-1" id="collapseFour">
+                <a href="#jardim">Jardim</a>
+                <a href="#churrasqueira">Churrasqueira</a>
+                <a href="#piscina">Piscina</a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <header id="header">
+
+      <section id="menu-header">
+        <div class="container">
+          <div class="row align-items-center justify-content-between flex-md-row flex-column">
+            <div class="logo col-lg-6 col-md-4">
+              <img src="assets/logo.png" alt="">
+            </div>
+
+
+            <div class=" d-none menu-mobile d-block d-lg-none col-3">
+              <div class="itens-menu form">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            </div>
+
+            <div class="icons-aux col-lg-6  col-md-8 d-flex justify-content-evenly align-items-center flex-wrap">
+              <div><a href="">Entrar</a></div>
+              <div><button>Cadastre-se</button></div>
+              <div><a href=""><img src="assets/parceiro.webp" class="me-2" alt="">Seja nosso parceiro</a></div>
+            </div>
+
+            
+
+          </div>
+          </div>
+      </section>
+
+    </header>
+    
+    
+    <main>
+
+      <section id="destaque">
+      </section>
+
+
+      <div class="container sesi-ofertas">
+         <div class="title">
+              <h1 class="mb-4">SESI LAB - 11/06</h1>
+            </div>
+
+            <div class="row itens-destaque">
+              <div class="col-lg-6 my-2">
+                <a href="">Sobre o Evento</a>
+              </div>
+              <div class="col-lg-6 my-2"><a href="">LOCALIZAÇÃO</a></div>
+            </div>
+        <section class="row mt-5">
+          <div class="col-lg-4">
+            <div class="card-oferta shadow p-3 card">
+              <div class="nome">
+                <a href="">Quarta-Feira, 11 de Junho
+09:00</a>
+              </div>
+
+              <div class="local">
+                <i class="fa-solid fa-location-dot me-2 fa-xl"></i>
+                Sesi Lab, <span>Brasília - DF</span>
+              </div>
+
+              <div class="campo-search position-relative">
+                  <input type="text" class=" ps-3 form-control" placeholder="Código do cupom">
+                  <button type="button" class="btn btn-primary rounded-pill">VALIDAR</button>
+                </div>
+            </div>
+          </div>
+          <div id="ofertas" class="pb-5 col-lg-8">
+            <div class="">
+              <div class="col-lg-12 text-destaque">
+                <a href="">Entrada das 09h às 13h</a>
+              </div>
+              <!--Slick-->
+              <div class="slider-oferta">
+                <div class="">
+                  <div class="item-oferta rounded shadow">
+                    <div class=" d-flex flex-column  ">
+                      <div class="oferta-conteudo">
+                        <div class="infos mb-3">
+                          <p class="mb-1">Inteira - Unissex</p>
+                          <div class="lote mb-3"> 1º Lote</div>
+                          <span class="valores d-flex flex-column">
+                            <span class="fs-6 fw-semibold">R$ 20,00(Valor)</span>
+                            <span class="fs-6 fw-semibold">R$ 20,00(Taxa)</span>
+                          </span>
+                        </div>
+                        <div class="qtd text-center mt-4">
+                          <button type="button" class="btn qtyBtn">-</button>
+                          <input type="number" min="0" max="99" readonly="" class="qtyObj ng-untouched ng-pristine ng-valid">
+                          <button type="button" class="btn qtyBtn">+</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="">
+                  <div class="item-oferta rounded shadow">
+                    <div class=" d-flex flex-column  ">
+                     <div class="oferta-conteudo">
+                        <div class="infos mb-3">
+                          <p class="mb-1">Estudante - Unissex</p>
+                          <div class="lote mb-3"> 1º Lote</div>
+                          <span class="valores d-flex flex-column">
+                            <span class="fs-6 fw-semibold">R$ 10,00(Valor)</span>
+                            <span class="fs-6 fw-semibold">R$ 1,00(Taxa)</span>
+                          </span>
+                        </div>
+                        <div class="qtd text-center mt-4">
+                          <button type="button" class="btn qtyBtn">-</button>
+                          <input type="number" min="0" max="99" readonly="" class="qtyObj ng-untouched ng-pristine ng-valid">
+                          <button type="button" class="btn qtyBtn">+</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="">
+                  <div class="item-oferta rounded shadow">
+                    <div class=" d-flex flex-column  ">
+                      <div class="oferta-conteudo">
+                        <div class="infos mb-3">
+                          <p class="mb-1">Idoso Meia - Unissex</p>
+                          <div class="lote mb-3"> 1º Lote</div>
+                          <span class="valores d-flex flex-column">
+                            <span class="fs-6 fw-semibold">R$ 10,00(Valor)</span>
+                            <span class="fs-6 fw-semibold">R$ 1,00(Taxa)</span>
+                          </span>
+                        </div>
+                        <div class="qtd text-center mt-4">
+                          <button type="button" class="btn qtyBtn">-</button>
+                          <input type="number" min="0" max="99" readonly="" class="qtyObj ng-untouched ng-pristine ng-valid">
+                          <button type="button" class="btn qtyBtn">+</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="">
+                  <div class="item-oferta rounded shadow">
+                    <div class=" d-flex flex-column  ">
+                      <div class="oferta-conteudo">
+                        <div class="infos mb-3">
+                          <p class="mb-1">Estudante - Unissex</p>
+                          <div class="lote mb-3"> 1º Lote</div>
+                          <span class="valores d-flex flex-column">
+                            <span class="fs-6 fw-semibold">R$ 10,00(Valor)</span>
+                            <span class="fs-6 fw-semibold">R$ 1,00(Taxa)</span>
+                          </span>
+                        </div>
+                        <div class="qtd text-center mt-4">
+                          <button type="button" class="btn qtyBtn">-</button>
+                          <input type="number" min="0" max="99" readonly="" class="qtyObj ng-untouched ng-pristine ng-valid">
+                          <button type="button" class="btn qtyBtn">+</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="">
+                  <div class="item-oferta rounded shadow">
+                    <div class=" d-flex flex-column  ">
+                      <div class="oferta-conteudo">
+                        <div class="infos mb-3">
+                          <p class="mb-1">Inteira - Unissex</p>
+                          <div class="lote mb-3"> 1º Lote</div>
+                          <span class="valores d-flex flex-column">
+                            <span class="fs-6 fw-semibold">R$ 20,00(Valor)</span>
+                            <span class="fs-6 fw-semibold">R$ 20,00(Taxa)</span>
+                          </span>
+                        </div>
+                        <div class="qtd text-center mt-4">
+                          <button type="button" class="btn qtyBtn">-</button>
+                          <input type="number" min="0" max="99" readonly="" class="qtyObj ng-untouched ng-pristine ng-valid">
+                          <button type="button" class="btn qtyBtn">+</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="">
+                  <div class="item-oferta rounded shadow">
+                    <div class=" d-flex flex-column  ">
+                      <div class="oferta-conteudo">
+                        <div class="infos mb-3">
+                          <p class="mb-1">Inteira - Unissex</p>
+                          <div class="lote mb-3"> 1º Lote</div>
+                          <span class="valores d-flex flex-column">
+                            <span class="fs-6 fw-semibold">R$ 20,00(Valor)</span>
+                            <span class="fs-6 fw-semibold">R$ 20,00(Taxa)</span>
+                          </span>
+                        </div>
+                        <div class="qtd text-center mt-4">
+                          <button type="button" class="btn qtyBtn">-</button>
+                          <input type="number" min="0" max="99" readonly="" class="qtyObj ng-untouched ng-pristine ng-valid">
+                          <button type="button" class="btn qtyBtn">+</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="">
+                  <div class="item-oferta rounded shadow">
+                    <div class=" d-flex flex-column  ">
+                      <div class="oferta-conteudo">
+                        <div class="infos mb-3">
+                          <p class="mb-1">Inteira - Unissex</p>
+                          <div class="lote mb-3"> 1º Lote</div>
+                          <span class="valores d-flex flex-column">
+                            <span class="fs-6 fw-semibold">R$ 20,00(Valor)</span>
+                            <span class="fs-6 fw-semibold">R$ 20,00(Taxa)</span>
+                          </span>
+                        </div>
+                        <div class="qtd text-center mt-4">
+                          <button type="button" class="btn qtyBtn">-</button>
+                          <input type="number" min="0" max="99" readonly="" class="qtyObj ng-untouched ng-pristine ng-valid">
+                          <button type="button" class="btn qtyBtn">+</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer id="rodape">
+      <section id="top-rodape">
+        <div class="container">
+          <div class="content row gap-sm-0 gap-5">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <a href="" class="title">Institucional</a>
+              <ul class="menu">
+                <li><a href="">Sobre nós</a></li>
+                <li><a href="">Soluções</a></li>
+                <li><a href="">Termos de uso</a></li>
+                <li><a href="">Política de Privacidade</a></li>
+                <li><a href="">Política de meia entrada</a></li>
+                <li><a href="">Ingresso reembolsável</a></li>
+              </ul>
+            </div>
+
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <a href="" class="title">Localização</a>
+              <ul class="menu">
+                <li><a href="">Av. D, Qd. G 11, Lt 01, S/N, Sala 401, Setor Marista Goiânia - GoiásCep: 74150-040 PROCON: 151</a></li>
+                
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <a href="" class="title">Aplicativo</a>
+              <div class="app mt-4">
+                <div class="mb-2">
+                  <img src="assets/googleplay-icone.webp" alt="">
+                </div>
+                
+                <div class="">
+                   <img src="assets/appstore-icone.webp" alt="">
+                </div>
+                
+              </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-12 d-flex flex-lg-column flex-sm-row flex-column mt-lg-0 mt-4 gap-md-0 gap-5">
+              <div class="socias col-sm-6">
+                <a href="" class="title">Redes Socias</a>
+                <div class="redes mt-4">
+                  <div class="d-flex justify-content-start gap-3">
+                    <div>
+                      <a href=""><i class="fa-brands fa-whatsapp pe-2 fs-2"></i></a>
+                    </div>
+                    <div>
+                      <a href=""><i class="fa-brands pe-2 fs-2 fa-linkedin"></i></a>
+                    </div>
+                    <div>
+                      <a href=""><i class="fa-brands pe-2 fs-2 fa-instagram"></i></a>
+                    </div>
+                    <div>
+                      <a href=""><i class="fa-brands pe-2 fs-2 fa-facebook"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+      <section id="bottom-rodape" class="d-none">
+        <div class="container d-flex justify-content-between flex-lg-row flex-column text-center">
+          <article>
+            <p class="mb-0">© 2025 - Canto da CasaTodos os direitos reservados.</p>
+          </article>
+
+          <article class="mt-lg-0 mt-2">
+            <p class="mb-0">Desenvolvido por <a href="https://www.linkedin.com/in/giovannaarrais/" target="_blank">Giovanna Arrais</a></p>
+          </article>
+        </div>
+      </section>
+    </footer>
+
+    
+    <script src="script/main.js"></script>
+
+    <!--Slick-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!--AOS - Animações -->
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.slider-oferta').slick({
+          dots: false,
+          arrows: true,     
+          autoplay: false,     
+          autoplaySpeed: 3000,
+          slidesToShow: 3,   
+          slidesToScroll: 1,
+          responsive: [   
+            {
+              breakpoint: 1650,
+              settings: {
+                slidesToShow: 3,
+              }
+            },
+            {
+              breakpoint: 1200,
+              settings: {
+                slidesToShow: 2,
+              }
+            },
+            {
+              breakpoint: 470,
+              settings: {
+                slidesToShow: 1
+              }
+            }
+          ]
+        });
+      });
+    </script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
+</body>
+</html>
