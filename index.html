@@ -14,72 +14,16 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 
-    <!--AOS - Animações -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>IngressoS.A</title>
 </head>
 <body>
-    <div id="canvas-menu">
-      <div class="canvas-header d-flex justify-content-between align-items-center">
-        <div class="options d-flex p-md-4 px-1 py-3 gap-md-4 gap-2">
-          <div><a href=""><img src="assets/icons/cart.svg" alt="">Meu carrinho</a></div>
-          <div><a href=""><img src="assets/icons/heart.svg" alt="">Meus Favoritos</a></div>
-        </div>
-        
-        <div class="box-close">
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-      </div>
-      
-      <div class="offcanvas-body p-4">
-        <nav class="menu-top" aria-label="Main navigation">
-          <ul class="ps-0">
-            <li class="mb-3">
-              <a href="#collapsePrimary" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapsePrimary">
-                Sala de Estar 
-                <i class="fa-solid fa-circle-chevron-down"></i></a>
-              <div class="submenu collapse d-flex flex-column ps-3 mt-1" id="collapsePrimary">
-                <a href="#sofa">Sofá</a>
-                <a href="#tv">TV</a>
-                <a href="#decoracao">Decoração</a>
-              </div>
-            </li>
-            <li class="mb-3">
-              <a  href="#collapseSecondary" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseSecondary">Cozinha <i class="fa-solid fa-circle-chevron-down"></i></a>
-              <div class="submenu collapse d-flex flex-column ps-3 mt-1" id="collapseSecondary">
-                <a href="#eletrodomesticos">Eletrodomésticos</a>
-                <a href="#armarios">Armários</a>
-                <a href="#dispensa">Despensa</a>
-              </div>
-            </li>
-            <li class="mb-3">
-              <a  href="#collapseThree" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseThree">Quartos <i class="fa-solid fa-circle-chevron-down"></i></a>
-              <div class="submenu collapse d-flex flex-column ps-3 mt-1" id="collapseThree">
-                <a href="#casal">Quarto Casal</a>
-                <a href="#infantil">Quarto Infantil</a>
-                <a href="#hospedes">Quarto de Hóspedes</a>
-              </div>
-            </li>
-            <li class="mb-3">
-              <a  href="#collapseFour" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseFour">Área Externa <i class="fa-solid fa-circle-chevron-down"></i></a>
-              <div class="submenu collapse d-flex flex-column ps-3 mt-1" id="collapseFour">
-                <a href="#jardim">Jardim</a>
-                <a href="#churrasqueira">Churrasqueira</a>
-                <a href="#piscina">Piscina</a>
-              </div>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-
     <header id="header">
 
       <section id="menu-header">
         <div class="container">
-          <div class="row align-items-center justify-content-between flex-md-row flex-column">
-            <div class="logo col-lg-6 col-md-4">
+          <div class="row align-items-center justify-content-between flex-md-row ">
+            <div class="logo col-lg-6 col-md-4 col-6 mt-lg-0 mt-3">
               <img src="assets/logo.png" alt="">
             </div>
 
@@ -93,10 +37,10 @@
 
             </div>
 
-            <div class="icons-aux col-lg-6  col-md-8 d-flex justify-content-evenly align-items-center flex-wrap">
+            <div class="icons-aux col-lg-6  col-md-8 col-6 d-flex justify-content-lg-evenly justify-content-end align-items-center flex-wrap">
               <div><a href="">Entrar</a></div>
-              <div><button>Cadastre-se</button></div>
-              <div><a href=""><img src="assets/parceiro.webp" class="me-2" alt="">Seja nosso parceiro</a></div>
+              <div class="d-lg-block d-none"><button>Cadastre-se</button></div>
+              <div  class="d-lg-block d-none"><a href=""><img src="assets/parceiro.webp" class="me-2" alt="">Seja nosso parceiro</a></div>
             </div>
 
             
@@ -113,6 +57,37 @@
       <section id="destaque">
       </section>
 
+      <div class="modals">
+        <div class="modal fade" id="sobreEvento" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Sobre o evento</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p _ngcontent-tbx-c118="" class="card-text description"><p class="ql-align-justify">Seja bem-vindo ao&nbsp;SESI Lab&nbsp;- museu de arte, ciência e tecnologia, ancorado no coração de Brasília!</p><p class="ql-align-justify">Venha conhecer nossas exposições, espaços maker e biomaker, participe de nossas oficinas, formações e fique de olho na agenda cultural!</p><p class="ql-align-justify">&nbsp;</p><p class="ql-align-justify">Nosso horário de funcionamento:</p><p class="ql-align-justify">3ª a 6ª das 9h às 18h (entrada até às 17h)</p><p class="ql-align-justify">Sáb., dom. e feriados das 10h às 19h (entrada até às 18h)</p><p class="ql-align-justify">&nbsp;</p><p class="ql-align-justify">Antes de iniciar sua visita, confira algumas informações importantes:</p><p class="ql-align-justify">&nbsp;</p><p class="ql-align-justify">OFICINAS e ATIVIDADES:</p><p class="ql-align-justify">Para participar das oficinas, basta retirar uma ficha 30 minutos antes do início da atividade. É importante lembrar que as vagas são limitadas. E, por favor, esteja ciente de que apenas a emissão do ingresso não garante a vaga na oficina.</p><p class="ql-align-justify">&nbsp;</p><p class="ql-align-justify">*Ingressos limitados*</p><p>Inteira – R$ 20,00</p><p>Meia-entrada – R$ 10,00</p><p>Crianças até 10 anos não pagam</p><p>Veja outras gratuidades abaixo:</p><p>Política de Gratuidade:</p><ul><li class="ql-align-justify">Professores da rede SESI e SENAI e da rede pública - carteira funcional emitida pelo órgão competente e documento original de identificação com foto.</li><li class="ql-align-justify">Alunos da Rede SESI e SENAI – carteirinha emitida pela instituição.</li><li class="ql-align-justify">Alunos de escolas públicas – carteirinha emitida pela instituição.</li><li class="ql-align-justify">Trabalhadores da indústria – documento funcional e documento original de identificação com foto.</li><li class="ql-align-justify">Pessoas com deficiência - carteira de identificação PCD ou Cartão de Benefício de Prestação Continuada da Assistência Social da Pessoa com Deficiência ou de documento emitido pelo Instituto Nacional do Seguro Social - INSS que ateste a aposentadoria de acordo com os critérios estabelecidos na Lei Complementar nº 142, de 8 de maio de 2013. No momento de apresentação, esses documentos deverão estar acompanhados de documento de identidade oficial com foto.</li><li class="ql-align-justify">Públicos em situação de vulnerabilidade social, mediante agendamento prévio por instituições sociais.</li><li class="ql-align-justify">Membros associados do ICOM – Conselho Internacional&nbsp;de&nbsp;Museus - carteira da instituição com selo da anuidade.</li><li class="ql-align-justify">Guias de Turismo - devidamente cadastrados no Cadastur/Embratur</li></ul><p>Meia entrada:</p><ul><li class="ql-align-justify">Estudantes - carteira de identificação estudantil (CIE), emitida pela ANPG, UNE, Ubes, entidades estaduais e municipais, Diretórios Centrais dos Estudantes, Centros e Diretórios Acadêmicos, conforme modelo único nacionalmente padronizado. Os elementos indispensáveis da CIE são: nome completo e data de nascimento do estudante; foto recente do estudante; nome da instituição de ensino na qual o estudante esteja matriculado; grau de escolaridade; data de validade até o dia 31 de março do ano subsequente ao de sua expedição.</li><li class="ql-align-justify">Idosos - documento de identidade oficial com foto.</li><li class="ql-align-justify">Jovens pertencentes a famílias de baixa renda, com idades de 15 a 29 anos - carteira de identidade jovem que será emitida pela Secretaria Nacional de Juventude a partir de 31 de março de 2016, acompanhada de documento de identidade oficial com foto.</li><li class="ql-align-justify">Professores da Rede Particular de Ensino - carteira funcional emitida pela Secretaria Municipal de Educação do DF ou holerite acompanhado de documento oficial com foto.</li><li class="ql-align-justify">Profissionais da área da Saúde – que trabalham na rede pública e privada - a comprovação deve ser feita mediante a apresentação de documento de identidade e, alternativamente, contracheque, carteira funcional emitida por estabelecimento público ou privado de saúde ou carteira de identificação expedida por entidade de classe.</li></ul><p class="ql-align-justify">- É IMPRESCINDÍVEL A APRESENTAÇÃO DO INGRESSO INDEPENDENTEMENTE DA IDADE DO VISITANTE OU DA GRATUIDADE&nbsp;(CRIANÇAS E BEBÊS DE COLO TAMBÉM PRECISAM DE INGRESSO). NO CASO DOS INGRESSOS EMITIDOS NAS MODALIDADES MEIA-ENTRADA E GRATUIDADE É OBRIGATÓRIA A APRESENTAÇÃO DE DOCUMENTO&nbsp;COMPROBATÓRIO.</p><p>- Após a aquisição do ingresso, ele será enviado por e-mail e, também, ficará disponível em sua conta IngressoSA.</p><p>- Não é necessário imprimir o ingresso. Ele pode ser apresentado na tela do seu smartphone ou tablet.</p><p>- No interior do SESI Lab, é permitido apenas beber água.</p><p>- Não será permitida a entrada de pets.</p><p>-&nbsp;A entrada, a frequência e a permanência de crianças e adolescentes no SESI Lab, com base no ECA (Estatuto da Criança e do Adolescente), apresenta a seguinte orientação:</p><ul><li>crianças desacompanhadas dos pais ou responsáveis estão proibidas de frequentar as dependências do SESI Lab. Vale destacar que, de acordo com o ECA, é considerado criança quem tem até 12 anos incompletos;</li><li>aos adolescentes com idade entre 12 a 18 anos incompletos, fica autorizado o acesso, frequência e permanência nas dependências do SESI Lab, durante o seu horário de funcionamento. Vale destacar que, de acordo com o ECA, é considerado adolescente quem tem idade entre 12 e 18 anos incompletos;</li><li>no caso do “Night Lab”, onde há venda de bebidas alcoólicas, fica proibida a entrada e permanência de menores de 18 anos. No controle de acesso ao evento é solicitada a apresentação de documento de identidade.</li></ul><p>- É de exclusiva responsabilidade do participante qualquer acidente que porventura venha a acontecer durante a participação na atração ao descumprir as orientações.</p><p>-&nbsp;Fechamento&nbsp;- O museu&nbsp;fecha às segundas-feiras.</p><p class="ql-align-justify">-&nbsp;Achados e perdidos&nbsp;-&nbsp;O SESI Lab não se responsabiliza por objetos deixados ou esquecidos no museu. Objetos eventualmente encontrados serão deixados no balcão da recepção e só poderão ser retirados mediante identificação e comprovação de propriedade.</p><p>-&nbsp;Classificação indicativa: LIVRE.</p><p>-&nbsp;Política de cancelamento:&nbsp;a&nbsp;devolução de ingressos será permitida se realizada em&nbsp;até&nbsp;7 (sete) dias após a sua compra,&nbsp;desde que a solicitação seja realizada&nbsp;48h antes do início da visita.&nbsp;Não serão aceitos pedidos de devolução realizados após esse prazo.</p><p>DIREITO DE IMAGEM:</p><p>O comprador concorda que o evento poderá ser, por parte da Ingresso S.A ou do Sistema Indústria (CNI, SESI, SENAI e IEL), filmado, gravado e/ou fotografado para posterior publicação, transmissão, retransmissão, reprodução e/ou divulgação em televisão, cinema, rádio, internet, redes sociais, publicidade em geral e qualquer outro veículo de comunicação, produção de CD e DVD. O Comprador concorda que, ao comparecer ao evento/espetáculo, autoriza a utilização gratuita de sua imagem, nome e voz, nos termos ora mencionados, no Brasil e no exterior, sem limite de vezes e tempo, sem que isso caracterize uso indevido da imagem ou qualquer outro direito e sem que dessa utilização ocorra qualquer ônus e/ou indenização.</p><p>Ao avançar declaro que as informações acima são verdadeiras.</p><p>Quer levar o SESI Lab para casa? Visite nossa loja, localizada no 1º pavimento!</p><p class="ql-align-justify">Para mais detalhes, acesse nosso site e siga nosso perfil no Instagram:&nbsp;<a href="https://www.instagram.com/sesi.lab" rel="noopener noreferrer" target="_blank">https://www.instagram.com/sesi.lab</a></p><p class="ql-align-justify">Site:&nbsp;<a href="https://www.portaldaindustria.com.br/sesi/canais/sesi-lab/" rel="noopener noreferrer" target="_blank">https://www.portaldaindustria.com.br/sesi/canais/sesi-lab/</a>&nbsp;</p><p>&nbsp;</p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modals">
+        <div class="modal fade" id="sobreLocal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Localização</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15356.563739075924!2d-47.882057!3d-15.796521!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3b0a223e45d1%3A0x34e29e7f08f4e3de!2sSESI%20Lab%20-%20Espa%C3%A7o%20de%20Arte%2C%20Ci%C3%AAncia%20e%20Tecnologia!5e0!3m2!1spt-BR!2sus!4v1748565287828!5m2!1spt-BR!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div class="container sesi-ofertas">
          <div class="title">
@@ -121,9 +96,9 @@
 
             <div class="row itens-destaque">
               <div class="col-lg-6 my-2">
-                <a href="">Sobre o Evento</a>
+                <a href="" data-bs-toggle="modal" data-bs-target="#sobreEvento">Sobre o Evento</a>
               </div>
-              <div class="col-lg-6 my-2"><a href="">LOCALIZAÇÃO</a></div>
+              <div class="col-lg-6 my-2"><a href="" data-bs-toggle="modal" data-bs-target="#sobreLocal">LOCALIZAÇÃO</a></div>
             </div>
         <section class="row mt-5">
           <div class="col-lg-4">
@@ -223,7 +198,7 @@
                     <div class=" d-flex flex-column  ">
                       <div class="oferta-conteudo">
                         <div class="infos mb-3">
-                          <p class="mb-1">Estudante - Unissex</p>
+                          <p class="mb-1">Profissional da Saúde-Unissex</p>
                           <div class="lote mb-3"> 1º Lote</div>
                           <span class="valores d-flex flex-column">
                             <span class="fs-6 fw-semibold">R$ 10,00(Valor)</span>
@@ -245,11 +220,11 @@
                     <div class=" d-flex flex-column  ">
                       <div class="oferta-conteudo">
                         <div class="infos mb-3">
-                          <p class="mb-1">Inteira - Unissex</p>
+                          <p class="mb-1">Profissional de Educação-Unissex</p>
                           <div class="lote mb-3"> 1º Lote</div>
                           <span class="valores d-flex flex-column">
-                            <span class="fs-6 fw-semibold">R$ 20,00(Valor)</span>
-                            <span class="fs-6 fw-semibold">R$ 20,00(Taxa)</span>
+                            <span class="fs-6 fw-semibold">R$ 10,00(Valor)</span>
+                            <span class="fs-6 fw-semibold">R$ 1,00(Taxa)</span>
                           </span>
                         </div>
                         <div class="qtd text-center mt-4">
@@ -267,11 +242,11 @@
                     <div class=" d-flex flex-column  ">
                       <div class="oferta-conteudo">
                         <div class="infos mb-3">
-                          <p class="mb-1">Inteira - Unissex</p>
+                          <p class="mb-1">Pessoa com deficiência - Unissex</p>
                           <div class="lote mb-3"> 1º Lote</div>
                           <span class="valores d-flex flex-column">
-                            <span class="fs-6 fw-semibold">R$ 20,00(Valor)</span>
-                            <span class="fs-6 fw-semibold">R$ 20,00(Taxa)</span>
+                            <span class="fs-6 fw-semibold">R$ 00,00(Valor)</span>
+                            <span class="fs-6 fw-semibold">R$ 00,00(Taxa)</span>
                           </span>
                         </div>
                         <div class="qtd text-center mt-4">
@@ -289,11 +264,11 @@
                     <div class=" d-flex flex-column  ">
                       <div class="oferta-conteudo">
                         <div class="infos mb-3">
-                          <p class="mb-1">Inteira - Unissex</p>
+                          <p class="mb-1">Criança de 0 a 10 anos - Unissex</p>
                           <div class="lote mb-3"> 1º Lote</div>
                           <span class="valores d-flex flex-column">
-                            <span class="fs-6 fw-semibold">R$ 20,00(Valor)</span>
-                            <span class="fs-6 fw-semibold">R$ 20,00(Taxa)</span>
+                            <span class="fs-6 fw-semibold">R$ 00,00(Valor)</span>
+                            <span class="fs-6 fw-semibold">R$ 00,00(Taxa)</span>
                           </span>
                         </div>
                         <div class="qtd text-center mt-4">
@@ -378,10 +353,10 @@
       </section>
 
       
-      <section id="bottom-rodape" class="d-none">
+      <section id="bottom-rodape">
         <div class="container d-flex justify-content-between flex-lg-row flex-column text-center">
           <article>
-            <p class="mb-0">© 2025 - Canto da CasaTodos os direitos reservados.</p>
+            <p class="mb-0">© 2025 - IngressoS.A. Todos os direitos reservados.</p>
           </article>
 
           <article class="mt-lg-0 mt-2">
@@ -390,9 +365,6 @@
         </div>
       </section>
     </footer>
-
-    
-    <script src="script/main.js"></script>
 
     <!--Slick-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -407,7 +379,7 @@
         $('.slider-oferta').slick({
           dots: false,
           arrows: true,     
-          autoplay: true,     
+          autoplay: false,     
           autoplaySpeed: 3000,
           slidesToShow: 3,   
           slidesToScroll: 1,
@@ -435,9 +407,6 @@
       });
     </script>
 
-    <script>
-      AOS.init();
-    </script>
   </body>
 </html>
 </body>

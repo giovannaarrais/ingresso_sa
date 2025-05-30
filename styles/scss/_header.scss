@@ -11,7 +11,11 @@ header{
     display: flex;
     align-items: center;
     background-color: white;
-    border-bottom: 1px solid var(--c-laranja);
+    box-shadow: 0 -4px 14px 1px #000000;
+
+    @media screen and (max-width: 767px) {
+        height: 96px;
+    }
 
     @media screen and (max-width: 991px) and (min-width: 768px) {
         >div, >div .row, >div .row >div{
@@ -23,7 +27,7 @@ header{
             width: 300px;
             
             @media screen and (max-width: 1199px) {
-                width: 150px;
+                width: 250px;
             }
 
             @media screen and (max-width: 575px) {
