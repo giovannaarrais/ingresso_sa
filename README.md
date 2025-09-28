@@ -1,5 +1,3 @@
-# 🎨💻 Explorando o Design pelo Olhar de uma Dev
-
 Este projeto nasceu de uma experiência acadêmica onde o objetivo foi **repensar a página de compra de ingressos** inspirada no sistema utilizado pelo **Sesi Lab**, trazendo uma proposta de UI/UX mais clara, intuitiva e alinhada às necessidades do usuário moderno.  
 
 
@@ -25,8 +23,6 @@ Este projeto nasceu de uma experiência acadêmica onde o objetivo foi **repensa
 
 ## 🔗 Links importantes
 
-- 🌐 **Nova proposta (site desenvolvido):** [Clique aqui](https://lnkd.in/erbnFhRy)  
-- 🎨 **Layout no Figma:** [Clique aqui](https://lnkd.in/eqARYczN)  
-- 🔍 **Site original de referência:** [Clique aqui](https://lnkd.in/er2cJ4BC)  
-
----
+- 🌐 **Nova proposta (site desenvolvido):** [Clique aqui](https://giovannaarrais.github.io/ingresso_sa/)  
+- 🎨 **Layout no Figma:** [Clique aqui](https://www.figma.com/proto/rQxl4kHXtg1BaJV8B6fqLf/New-Layout-IngressoS.A?node-id=4-3&p=f&t=BRwhW0uc164zAFGc-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)  
+- 🔍 **Site original de referência:** [Clique aqui](https://beta.ingressosa.com/)  
